@@ -44,9 +44,7 @@ html,body{
     font-size: 21px;
     font-weight: 500;
     cursor: pointer;
-}
-/*content section*/
-.content{
+}.content{
     width: 100%;
     height: calc(100% - 110px);
     position: relative;
