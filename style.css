@@ -12,7 +12,6 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: #ec566a62;
-    /*Jab bhi parent banao position  relative de diya karo  #D0D4D5 */
     position: relative;
 }
 #nav{
@@ -89,14 +88,13 @@ html,body{
     border-top-left-radius: 0px;
     border-radius: 50px;
 }
-/* right side section*/
 .right{
     height: 100%;
     width: 60%;
     position: relative;
     padding: 60px;
     white-space: nowrap;
-    overflow-x: auto;/* isse jo scroll karne se side m bhag jata tha woh nahi hoga*/
+    overflow-x: auto;
 }
 .right::-webkit-scrollbar{
     display: none;
