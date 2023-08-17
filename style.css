@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Kanit', sans-serif;
+    font-family: giroy;
 }
 html,body{
     height: 100%;
@@ -15,16 +15,15 @@ html,body{
     position: relative;
 }
 #nav{
-    height: 90px;
-    padding: 0 50px;
-    width: 100%;
-    display: flex;
+    height: 110px;
+    padding: 0 80px;
+    width: 100%;display: flex;
     align-items: center;
     justify-content: space-between;
 }
 #nav img{
     height: 35px;
-    margin-right: 140px;
+    margin-right: 170px;
 }
 #nav-prt1{
     display: flex;
@@ -33,107 +32,113 @@ html,body{
 }
 #nav-prt1 h4{
     margin-right: 60px;
-    font-size: 14px;
+    font-size: 19px;
     text-transform: uppercase;
     font-weight: 600;
-    cursor: pointer;
 }
 #nav-prt1 h4:hover{
-    text-decoration: underline 2px;
+    color: coral;
 }
 #nav-prt2 i{
     margin-right: 60px;
-    font-size: 20px;
-    font-weight: 600;
-    cursor:pointer;
-}
-
-#content{
+    font-size: 21px;
+    font-weight: 500;
+    cursor: pointer;
+}.content{
     width: 100%;
-    height: calc(100% - 90px);
+    height: calc(100% - 110px);
     position: relative;
     display: flex;
+
 }
-#left{
+.left{
     width: 40%;
     height: 100%;
-    padding: 90px 90px;
+
+    padding: 60px 140px;
+    
 }
-#left h5{
-    font-size: 15px;
-    margin-bottom: 22px;
+.left h5{
+    font-size: 22px;
     color: #535353;
+    margin-bottom: 25px;
 }
-#left h1{
-    font-size: 40px;
-    margin-bottom: 30px;
-    line-height: 50px;
+.left h1{
+    font-size: 32px;
+    line-height: 60px;
+    color: solid black;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
-#left p{
-    font-size: 17px;
-    width: 90%;
-    margin-bottom: 70px;
+.left p{
+    font-size: 15px;
+    color: solid black;
+    width: 70%;
+    margin-bottom: 30px;
 }
-#left button{
+.left button{
     background-color: #000;
     color: #fff;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
-    padding: 12px 35px;
-    border-radius: 50px;
-    border-top-left-radius: 0px;
     text-transform: uppercase;
-    cursor: pointer;
+    padding: 15px 40px;
+    border-top-left-radius: 0px;
+    border-radius: 50px;
 }
-#left button:hover{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-#right{
+.right{
     height: 100%;
     width: 60%;
     position: relative;
-    padding: 90px;
+    padding: 60px;
     white-space: nowrap;
     overflow-x: auto;
 }
-#right::-webkit-scrollbar{
+.right::-webkit-scrollbar{
     display: none;
 }
 .elem{
-    height: 340px;
-    width: 230px;
+    height: 520px;
+    width: 380px;
     background-color: #fff;
     position: relative;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    margin-right: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    margin-right: 5px;
     display: inline-block;
 }
 .elem img{
-    height: 35%;
+    height: 70%;
     width: 100%;
-    top: 25%;
     object-fit: cover;
     position: absolute;
+    top: 15%;
 }
 .elem h4{
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: #D0D4D5;
-    font-size: 11px;
-    padding: 10px 18px;
+    background-color: #d0d4d5;
+    padding: 17px 34px;
     border-radius: 6px;
+
+}
+.elem h4:hover{
+    background-color: coral;
+    color: #fff;
 }
 .elem h5{
     position: absolute;
     bottom: 10%;
     right: 0;
-    background-color: #000000;
+    background-color: Black;
     color: #fff;
-    font-weight: 500;
-    padding: 10px 18px;
-    font-size: 10px;
+    padding: 17px 34px;
     border-radius: 6px;
+    font-weight: 500;
+    font-size: 13px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: coral;
 }
